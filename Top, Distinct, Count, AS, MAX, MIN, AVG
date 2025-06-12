@@ -1,0 +1,71 @@
+------- # Top, Distinct, Count, AS, MAX, MIN, AVG
+
+
+
+•	For selecting all rows and columns:
+
+*** Query: Select* from dbo.EmployeeDemographics;
+
+
+
+•	TOP: For selecting Top 5/any number from large data:
+
+*** Query: Select Top 5* from dbo.EmployeeDemographics;
+
+
+
+•	DISTINCE: For selecting distinct value: 
+
+*** Query: Select Distinct (EmployeeID) from dbo.EmployeeDemographics;
+
+
+
+•	COUNT: For counting the number of any value
+
+Query: Select Count (FirstName) From dbo.EmployeeDemographics;
+
+
+
+•	AS: For giving a name in the count column:
+
+Query: Select COUNT(FirstName) AS FirstNameCount From dbo.EmployeeDemographics;
+
+
+
+•	MAX: For selecting Maximum Value
+
+***Query: Select Max (Salary) from dbo.EmployeeSalary;
+
+
+
+•	MIN: Foe selecting Minimum value
+
+*** Query: Select MIN (Salary) from dbo.EmployeeSalary;
+
+
+
+
+•	AVG: Foe selecting average value:
+
+***Query: Select AVG (Salary) from dbo.EmployeeSalary;
+
+
+
+
+***For Selecting any database and table: Select Database Name.dbo.Table Name
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
