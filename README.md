@@ -1,4 +1,20 @@
-Query: How to create a table in Microsoft SQL 
-
-
-Query: How to insert Value in a table
+# Some Important topics of SQL: 
+- Creating Table
+- Inserting values in the table
+- Select Statement
+- Where Statement
+- Group by Statement
+- Order by Statement
+- Inner and Outer Join
+- Use case
+- Union, Union All
+- Case Statement
+- Having Cluse
+- Updating and Deleting data
+- Alising
+- Partition By
+- Common Table Expression(CTE)
+- Temp Table
+- String Function + Use case
+- Stored Procedure
+- Subquery
