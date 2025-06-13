@@ -1,18 +1,1 @@
-          # Group By Statement #
 
-Group By is similar to Distinct but in Distinct statement.
-We can only find the very first unique value like Male and Female but not exact value like how many males or females are under this value.
-
-***Query: Select Gender From dbo.EmployeeDemographics Group by Gender;
-
-      *****For counting value*****
-
-***Query: Select Gender, Count (Gender) From dbo.EmployeeDemographics Group by Gender;
-
-      *****For counting data according group*****
-
-***Query: Select Gender, Age, Count (Gender)From dbo.EmployeeDemographics Group by Gender, Age;
-
-	  *****For retrieving conditional data*****
-
-***Query: Select Gender, Count (Gender) From dbo.EmployeeDemographics Where Age >31 Group by Gender;
