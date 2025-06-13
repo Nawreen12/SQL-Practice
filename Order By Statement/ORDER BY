@@ -1,0 +1,45 @@
+              *********Order By Statement**********
+
+
+***Order By statement is used for ordering data in Ascending or Descending order***
+
+
+***Query: Select * From dbo.EmployeeDemographics Order by Age;
+
+
+*** Conditional Statement***
+
+
+***Query: Select Gender, Count (Gender) as CountGender From dbo.EmployeeDemographics Where Age >31 Group by Gender Order by Gender
+
+
+*** Ascending Order**
+
+
+***Query: Select * from dbo.EmployeeDemographics Order by age asc;
+
+
+***Dscending Order***
+
+
+***Query: Select * from dbo.EmployeeDemographics Order by age desc;
+
+
+*** Both Ascending and Dscending command*** 
+
+
+***Query: Select * from dbo.EmployeeDemographics Order by age asc, Gender desc;
+
+
+******We can use column number instead of name in group by statement :
+
+
+***Query: Select * from dbo.EmployeeDemographics Order by 4 desc, 5 desc;
+
+
+
+
+
+
+
+
