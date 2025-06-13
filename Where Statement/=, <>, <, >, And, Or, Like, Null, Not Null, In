@@ -1,0 +1,61 @@
+# Where Statement  "="
+
+•	For Selecting any Specific kind of value
+
+****Query: Select *From dbo.EmployeeDemographics Where Age = '30';
+
+
+#Where Statement "<>"
+
+•	Does Not Equal [<>]
+
+*** Query: Select * From dbo.EmployeeDemographics where Age <> '30';
+
+
+#Where Statement: ">"
+
+•	>
+
+***Query: Select * From dbo.EmployeeDemographics where Age > '30';
+
+
+#Where Statement: "<"
+
+•	<
+
+***Query: Select * From dbo.EmployeeDemographics where Age < '30';
+
+
+
+#Where Statement: ">="
+
+•>=
+
+***Query: Select * From dbo.EmployeeDemographics where Age >= '30';
+
+
+
+#Where Statement: 'AND'
+
+•	AND
+
+***Query: Select * From dbo.EmployeeDemographics where Age >'30' and  Gender = 'Female';
+
+
+
+#Where Statement: 'OR'
+
+•	OR
+
+***Query: Select * From dbo.EmployeeDemographics where Age >'30' or Gender = 'Female';
+
+
+
+#Where Statement: 'LIKE'
+
+•	LIKE : For Selecting any name start with any alphabet
+
+***Query: Select * From dbo.EmployeeDemographics where LastName Like 's%' ;
+
+
+
