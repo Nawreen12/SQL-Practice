@@ -57,5 +57,30 @@
 
 ***Query: Select * From dbo.EmployeeDemographics where LastName Like 's%' ;
 
+•	 For Selecting any name with any Specific alphabet: 
+
+*** Query: Select * From dbo.EmployeeDemographics where LastName Like '%s%' ;
+***Here % called wildcard
+
+
+# Where Statement: NULL
+
+•	 NULL: For identifying any null value
+
+***Query: Select * From dbo.EmployeeDemographics where LastName is NULL;
+
+
+# Where Statement: NOT NULL
+
+•	NOT NULL: For identifying any not null value
+
+***Query: Select * From dbo.EmployeeDemographics where LastName is Not NULL;
+
+
+# Where Statement: IN
+
+•	IN: In is kind of like = statement but it is a multiple equal statement
+
+***Query: Select *From dbo.EmployeeDemographics where FirstName In ('Pam' , 'Jim');
 
 
